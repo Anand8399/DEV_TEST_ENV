@@ -33,6 +33,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>true</IncludeIisSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -126,6 +127,26 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="custommaster.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\templatemo_advance_search.png" />
+    <Content Include="Images\templatemo_bullet.jpg" />
+    <Content Include="Images\templatemo_bullet.png" />
+    <Content Include="Images\templatemo_footer_bg.jpg" />
+    <Content Include="Images\templatemo_header_menu.jpg" />
+    <Content Include="Images\templatemo_header_menu_blank.jpg" />
+    <Content Include="Images\templatemo_menu_bg.jpg" />
+    <Content Include="Images\templatemo_more.jpg" />
+    <Content Include="Images\templatemo_search.jpg" />
+    <Content Include="Images\templatemo_section_box_bg.jpg" />
+    <Content Include="Images\templatemo_section_box_top_info.jpg" />
+    <Content Include="Images\templatemo_section_box_top_question.jpg" />
+    <Content Include="Images\templatemo_section_box_top_quote.jpg" />
+    <Content Include="Images\templatemo_thumb_1.jpg" />
+    <Content Include="Images\templatemo_thumb_2.jpg" />
+    <Content Include="Images\templatemo_thumb_3.jpg" />
+    <Content Include="Images\templatemo_top_section_bg.jpg" />
+    <Content Include="Images\templatemo_top_section_bottom.jpg" />
+    <Content Include="Images\templatemo_top_section_bottom_blank.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -155,6 +176,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Style\templatemo_style.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -219,8 +241,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="CSS\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
